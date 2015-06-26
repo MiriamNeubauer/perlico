@@ -1,4 +1,5 @@
 development:
+  adapter: postgresql
   database: perlico_dev
   host: localhost
 
