@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <%= render 'layouts/meta' %>
   <title>Perlico</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- preloader -->
+    <div class="preloader">
+        <div class="status"></div>
+    </div>
 
-<%= yield %>
+    <%= render 'layouts/header' %>
+	
+	<%= yield %>
+
+	<%= render 'layouts/footer' %>
+	<%= render 'layouts/scripts' %>
 
 </body>
 </html>
