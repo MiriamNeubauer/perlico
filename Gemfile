@@ -9,6 +9,7 @@ gem 'turbolinks'								# Turbolinks makes following links in your web applicati
 gem 'jbuilder', '~> 2.0'						# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'sdoc', '~> 0.4.0',          group: :doc	# bundle exec rake doc:rails generates the API under doc/api.
 gem 'pg'
+gem 'bootstrap-sass', '~> 3.2.0'				#Twitter bootstrap
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
