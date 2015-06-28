@@ -115,7 +115,7 @@ jQuery(document).ready(function ($) {
                 "align": "centerXY",
                 "width": 1280,
                 "height": 720,
-                "path": "video/",
+                "path": "assets/",
                 "filename": "video",
                 "types": ["mp4", "ogg", "webm"]
             });

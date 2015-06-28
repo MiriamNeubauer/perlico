@@ -1223,7 +1223,7 @@ footer p a:hover {
 }
 @media only screen and (max-width : 640px) {
     .parallax{
-        background: url(/video/video.jpg) no-repeat center center fixed #444;
+        background: url("video.jpg") no-repeat center center fixed #444;
         background-attachment: inherit !important;
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
