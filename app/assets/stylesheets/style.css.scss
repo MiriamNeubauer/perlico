@@ -63,7 +63,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(../images/loader.gif);
+    background-image: url(loader.gif);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -147,7 +147,7 @@ hr{
     white-space: nowrap;
 }
 .btn-new:hover,.btn-new:focus{
-    background: #FC453F;
+    background: #29BA98;
     color: #fff;
     text-decoration: none;
     outline: none;
@@ -157,7 +157,7 @@ hr{
     color: #fff;
 }
 .btn-bold:hover{
-    background: #FC453F;
+    background: #29BA98;
 }
 .light{
     font-weight: 400;
@@ -339,7 +339,7 @@ header .btn-new{
     background: #29BA98;
 }
 .pink .number{
-    background: #FC5653;
+    background: #24a788;
 }
 .blue{
     background: #3DCEC7;
@@ -461,7 +461,7 @@ ul.feature-list li {
 }
 /*secondFeature --------------------------------------- */
 #secondFeature{
-    background: #FF6863;
+    background: #29BA98;
     text-align: right;
     position: relative;
     height: 450px;
@@ -507,7 +507,7 @@ ul.feature-list li {
 .mobileScreen{
     width:247px;
     height: 440px;
-    background: url("../images/phones/iphone-screen.jpg") no-repeat;
+    background: url("phones/iphone-screen.jpg") no-repeat;
     background-position: center bottom;
     position: absolute;
     top: 0px;
@@ -836,7 +836,7 @@ ul.numbersList li:last-child{
     border: none;
 }
 ul.numbersList h4{
-    color: #FF6863;
+    color: #29BA98;
     margin-bottom: 0px;
 }
 ul.numbersList span{
@@ -860,9 +860,9 @@ ul.numbersList span{
 .btn-app-download {
     padding: 15px 30px 15px 80px;
     position: relative;
-    border:2px solid #FF6863;
+    border:2px solid #29BA98;
     display: inline-block;
-    color: #FF6863;
+    color: #29BA98;
     margin: 5px;
     text-align: left;
     border-radius: 40px;
@@ -870,7 +870,7 @@ ul.numbersList span{
 .btn-app-download:hover,.btn-app-download:focus{
     color: #fff;
     outline: none;
-    background: #FC453F;
+    background: #29BA98;
 }
 .btn-app-download i {
     font-size: 40px;
@@ -925,7 +925,7 @@ ul.numbersList span{
     height:100px;
 }
 #plans .item .price p {
-    color: #FF6863;
+    color: #29BA98;
     display: inline-block;
     font-weight: 700;
     font-size:70px;
@@ -963,7 +963,7 @@ ul.plans-list li {
     color: #fff;
 }
 #plans .popular{
-    background: #FF6863;
+    background: #29BA98;
     color: #fff;
     transform: scale(1.1,1.1);
 }
@@ -971,6 +971,13 @@ ul.plans-list li {
     border-color: #fff;
     color: #fff;
 }
+
+#plans .popular .btn-new:hover{
+    border-color: #fff;
+    color: #29BA98;
+    background-color: #fff;
+}
+
 #plans .popular .price p{
     color: #fff;
 }
@@ -1027,18 +1034,18 @@ ul.plans-list li {
 #contactForm input {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #FF6863;
+    border-bottom: 2px solid #29BA98;;
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
-    color:#FF6863;
+    color:#29BA98;;
     outline: none;
 }
 #contactForm textarea {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #FF6863;
+    border-bottom: 2px solid #29BA98;;
     height: 40px;
     max-height: 120px;
     resize: none;
@@ -1046,7 +1053,7 @@ ul.plans-list li {
     overflow: hidden;
     padding: 10px;
     width: 100%;
-    color:#FF6863;
+    color:#29BA98;;
     outline: none;
 }
 #contactForm .success,#contactForm .error {
@@ -1068,10 +1075,10 @@ footer p {
 footer p a {
     font-weight: 700;
     color: #fff;
-    color: #FF6863;
+    color: #29BA98;;
 }
 footer p a:hover {
-    color: #FF6863;
+    color: #29BA98;;
 }
 .circleSocial {
     padding: 0;
@@ -1097,9 +1104,9 @@ footer p a:hover {
     margin: 2px;
 }
 .circleSocial li a:hover,.circleSocial li a:focus {
-    border-color: #FF6863;
+    border-color: #29BA98;;
     outline: none;
-    color: #FF6863;
+    color: #29BA98;;
 }
 /* responsive style ----------------------------------------------------------------- */
 /* Large Devices, Wide Screens */
@@ -1216,7 +1223,7 @@ footer p a:hover {
 }
 @media only screen and (max-width : 640px) {
     .parallax{
-        background: url(../video/video.jpg) no-repeat center center fixed #444;
+        background: url(/video/video.jpg) no-repeat center center fixed #444;
         background-attachment: inherit !important;
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
